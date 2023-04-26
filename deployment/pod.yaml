@@ -12,7 +12,6 @@ spec:
     - containerPort: 8000
     env:
     - name: SECRET_KEY
-    #   value: 'thisismysecretkey'
       valueFrom:
         secretKeyRef:
           name: mysite-secret
