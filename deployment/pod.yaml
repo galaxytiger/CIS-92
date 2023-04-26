@@ -7,7 +7,7 @@ metadata:
 spec:
   containers:
   - name: httpd
-    image: ghcr.io/galaxytiger/cis-92:milestone-4.2
+    image: ghcr.io/galaxytiger/cis-92:milestone-5.2
     ports:
     - containerPort: 80
     env:
@@ -18,3 +18,22 @@ spec:
           key: SECRET_KEY
     - name: PORT
       value: "80"
+    - name: DB_NAME
+      value: "mysite"
+    - name: DB_USER
+      value: "postgres"
+    - name: DB_PASSWORD
+      value: "django"
+    - name: DB_HOST
+      value: "postgres"
+    livenessProbe:
+      httpGet:
+        path: /polls/
+        port: 80
+    resources:
+      requests:
+        cpu: 250m
+        memory: 128Mi
+      limits:
+        cpu: 1000m
+        memory: 1Gi

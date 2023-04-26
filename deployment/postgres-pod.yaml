@@ -28,6 +28,7 @@ spec:
         memory: 512Mi
         ephemeral-storage: 10Mi
     livenessProbe:
-      httpGet:
-        path: /polls/
-        port: 8000
+      tcpSocket:
+        port: 5432
+      initialDelaySeconds: 30
+      periodSeconds: 10
