@@ -18,14 +18,16 @@ spec:
           key: SECRET_KEY
     - name: PORT
       value: "80"
-    - name: DB_NAME
-      value: "mysite"
-    - name: DB_USER
+    - name: DB_ENGINE
       value: "postgres"
+    - name: DB_NAME
+      value: "django"
+    - name: DB_USER
+      value: "django"
     - name: DB_PASSWORD
       value: "django"
     - name: DB_HOST
-      value: "postgres"
+      value: "10.0.64.3"
     livenessProbe:
       httpGet:
         path: /polls/
