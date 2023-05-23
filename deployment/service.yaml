@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: mysite
   annotations:
-    external-dns.alpha.kubernetes.io/hostname: esatunolatienes.com.
+    external-dns.alpha.kubernetes.io/hostname: esatunolatienes.com.,www.esatunolatienes.com.
 spec:
   type: LoadBalancer 
   selector:
