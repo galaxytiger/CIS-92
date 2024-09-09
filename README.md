@@ -4,8 +4,8 @@ This is the start of my project
 
 Anthony Torres
 
-Course Description
-  Teaches how to deploy scalable infrastructure in the cloud, including how to build, test, and deploy Docker containers; Dockerize network services; and integrate containers with storage, databases, DNS, auto-scaling, and load balancers. Students will build fault-tolerant applications using a leading cloud provider (e.g. Amazon AWS, Microsoft Azure, or Google Cloud Platform). Prepares students for associate-level certifications such as AWS Certified Solutions Architect, AWS SysOps Administrator, and Microsoft Azure Administrator AZ-103. May be provided in a distance-learning format.
+Course Description: 
+Teaches how to deploy scalable infrastructure in the cloud, including how to build, test, and deploy Docker containers; Dockerize network services; and integrate containers with storage, databases, DNS, auto-scaling, and load balancers. Students will build fault-tolerant applications using a leading cloud provider (e.g. Amazon AWS, Microsoft Azure, or Google Cloud Platform). Prepares students for associate-level certifications such as AWS Certified Solutions Architect, AWS SysOps Administrator, and Microsoft Azure Administrator AZ-103. May be provided in a distance-learning format.
 
 Student Learner Outcomes
   1. Containerize and deploy an application in the cloud.
